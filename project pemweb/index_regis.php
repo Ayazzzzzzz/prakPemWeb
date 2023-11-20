@@ -59,27 +59,7 @@
             </form>
         </div>
     </div>
-<!-- <div class="d-flex">
-  <div class="p-2 flex-fill">
-    <img class="mt-5" src="nunggu_regis.png" alt="Registrasi" height=450px >
-  </div>
-  <div class="p-2 flex-fill" id="regis" >
-    <h1 class="mt-5 fw-bold text-center">Sign Up</h1>
-    <p class="text-center">Enter your details below to create your account</p>
-
-    <form class="mx-3" action="cek_regis" method="POST">
-        <label for="FullName">Full Name</label> <br>
-        <input type="text" name="firstName" placeholder="First Name" required>
-        <input type="text" name="lastName" placeholder="Last Name" required>
-        <br>
-        <label for="DateBirth">Date of Birth</label> <br>
-        <input type="date" name="dateBirth" required>
-        <br>
-
-    </form>
-  </div>
-</div> -->
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
