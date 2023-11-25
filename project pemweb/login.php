@@ -21,6 +21,7 @@
 
     body{
       font-family : 'Catamaran';
+      font-family : 'Poppins' ;	
       color : #213555;
     }
   </style>
@@ -42,13 +43,15 @@
 		if(isset($_GET['pesan']))
 		{
 			if($_GET['pesan'] == "gagal"){
-			  echo "Login gagal! Username dan Password salah!";
+			    echo "Login gagal! Username dan Password salah!";
 			}else if($_GET['pesan'] == "logout"){
-        echo "Anda telah berhasil logout";
-      }else if($_GET['pesan'] == "belum_login"){
-        echo "Anda harus login untuk mengakses halaman tersebut.";
-      }
-    }
+                echo "Anda telah berhasil logout";
+            }else if($_GET['pesan'] == "belum_login"){
+                echo "Anda harus login untuk mengakses halaman tersebut.";
+            }else if($_GET['pesan'] == "berhasil_regis") {
+                echo "Anda telah berhasil Sign Up. Silahkan login";
+            }
+        }
   ?>
   </div>
 
