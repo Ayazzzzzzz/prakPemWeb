@@ -20,9 +20,6 @@
             background-color: #FEF9EF;
             height: 645px;
         }
-        .card-tittle {
-            color: #213555;
-        }
     </style>
 </head>
 <body class="fw-light">
