@@ -1,3 +1,7 @@
+<!-- Nanti tambahin navbar ya
+jangan lupa benerin fw fs nya 
+trs tolong buat kotaknya fit in di satu display   -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +28,7 @@
     <div class="row">
         <div class="col-7 align-middle mt-5">
             <center>
-            <img src="nunggu_regis.png" alt="Registrasi" height=500px >
+            <img src="HAPPY KIDS.png" alt="" height= 540px>
             </center>
         </div>
         <div class="col-5" id="regis">
