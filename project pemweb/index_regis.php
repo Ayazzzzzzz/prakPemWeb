@@ -12,10 +12,11 @@
         body {
             background-color: #A2D2FF;
             font-family: 'Catamaran';
+            font-family: 'Poppins';
         }
         #regis {
             background-color: #FEF9EF;
-            height: 43rem;
+            height: 45rem;
         }
     </style>
 </head>
@@ -27,39 +28,46 @@
             </center>
         </div>
         <div class="col-5" id="regis">
-            <h1 class="mt-5 fw-bold text-center">Sign Up</h1>
-            <p class="text-center">Enter your details below to create your account</p>
+            <h1 class="mt-4 fw-bold text-center">Sign Up</h1>
+            <p class="text-center fs-6 fw-light">Enter your details below to create your account</p>
 
-            <form class="mx-3" action="cek_regis" method="POST">
-                <label for="firstName">Full Name</label> <br>
-                <input type="text" name="firstName" style="width: 49%;" placeholder="First Name" required>
-                <input type="text" name="lastName" style="width: 49%;" placeholder="Last Name" required>
+            <form class="mx-3" action="input_regis.php" method="POST">
+                <label class="ms-5 mt-4" for="first_name">First Name</label> 
+                <label for="last_name" class="px-5" style="margin-left: 6.5rem;">Last Name</label> <br>
+                <input class="fw-light ms-5 bg-transparent py-1" type="text" name="first_name" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" required>
+                <input class="fw-light ms-3 bg-transparent py-1" type="text" name="last_name" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" required>
                 <br>
-                <label for="dateBirth">Date of Birth</label>
-                <label for="phoneNumber" class="px-5" style="margin-left: 8rem;">Phone Number</label> <br>
-                <input type="date" style="width: 49%;" name="dateBirth" required>
-                <input type="number" style="width: 49%;" name="phoneNumber" placeholder="08123456789" required>
+                <label class="ms-5 mt-4" for="birth_date">Date of Birth</label>
+                <label for="contact" class="px-5" style="margin-left: 5.5rem;">Phone Number</label> <br>
+                <input class="fw-light ms-5 bg-transparent py-1" type="date" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="birth_date" required>
+                <input class="fw-light ms-3 bg-transparent py-1" type="number" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="contact" required>
                 <br>
-                <label for="kunjungan">Tanggal Kunjungan</label>
-                <label for="riwayatPenyakit" class="px-5" style="margin-left: 5rem;">Riwayat Penyakit</label> <br>
-                <input type="date" style="width: 49%;" name="kunjungan" required>
-                <input type="text" style="width: 49%;" name="riwayatPenyakit" placeholder="enter...">
+                <label class="ms-5 mt-4" for="kunjungan">Tanggal Kunjungan</label>
+                <label for="riwayat" class="px-5" style="margin-left: 2.5rem;">Riwayat Penyakit</label> <br>
+                <input class="fw-light ms-5 bg-transparent py-1" type="date" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="kunjungan" required>
+                <input class="fw-light ms-3 bg-transparent py-1" type="text" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="riwayat">
                 <br>
-                <label for="address">Address</label> <br>
-                <textarea name="address" cols="67" rows="3" placeholder="enter..."></textarea>
+                <label class="ms-5 mt-4" for="address">Address</label> <br>
+                <textarea class="fw-light ms-5 bg-transparent py-1" style="border: none; border-bottom: 1px solid #A2D2FF" name="address" cols="55" rows="2" placeholder="Enter.." required></textarea>
                 <br>
-                <label for="email">Email</label> 
-                <label for="password" class="px-5" style="margin-left: 11rem;">Password</label> <br>
-                <input type="email" name="email" style="width: 49%;" placeholder="example@gmail.com" required>
-                <input type="password" name="password" style="width: 49%;" placeholder="enter..." required>
+                <label class="ms-5 mt-4" for="email">Email</label> 
+                <label for="password" class="px-5" style="margin-left: 8.5rem;">Password</label> <br>
+                <input class="fw-light ms-5 bg-transparent py-1" type="email" name="email" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" required>
+                <input class="fw-light ms-3 bg-transparent py-1" type="password" name="password" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" required>
                 <br>
 
-                <button type="submit" name="SignUp">Sign Up</button>
+                <center>
+                <button class="mt-5 mb-5 rounded-pill border border-0 py-2 ms-3 fw-medium" style="width: 78%; background-color: #FEE440 ;" type="submit" name="SignUp">Sign Up</button>
+                </center>
 
             </form>
+
+            <center>
+                <span class="fw-light">Already have an account? <a class="text-decoration-none fw-medium" href="login.php">Login</a></span>
+            </center>
         </div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
