@@ -10,10 +10,10 @@
     -> yang blm login gabisa make a appoinment, suruh login aja 
     -> akses dia cuma liat liat, sip gtu aja, aja~ -->
 
-<?php 
+    <?php 
     session_start();
     if(empty($_SESSION['email'])){
-        header("location:login_page.php?pesan=belum_login");
+        header("location:login.php?pesan=belum_login");
     }
 ?>
 
@@ -29,6 +29,7 @@
 
     body{
       font-family : 'Catamaran';
+      font-family : 'Poppins';
       color : #213555;
     }
   </style>
@@ -42,7 +43,10 @@
   </li>
   </div>
   <li class="nav-item">
-    <a class="nav-link fs-5 mx-3" style="color : #213555;" aria-current="page" href="#">Article</a>
+    <a class="nav-link fs-5 mx-3" style="color : #4F709C;" aria-current="page" href="home.php">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fs-5 mx-3" style="color : #213555;" aria-current="page" href="artikel.php">Article</a>
   </li>
   <li class="nav-item">
     <a class="nav-link fs-5 mx-3" style="color : #213555;"  href="contact_hos.php">Contact Us</a>
@@ -94,7 +98,7 @@
     </div>
     <div class="col-6 mt-3">
         <center>
-        <h3 class="fs-1 fw-bold mb-5"> RS. Sadewa "Veteran" Yogyakarta </h3>
+        <h3 class="fs-1 fw-bold mb-5">Rumah Sakit Anak Hebat</h3>
         <p style="text-align: justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Auctor urna nunc id cursus metus aliquam eleifend. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Nisl nunc mi ipsum faucibus. Facilisis magna etiam tempor orci eu. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. Quis vel eros donec ac. Eros in cursus turpis massa tincidunt dui ut. Et tortor at risus viverra adipiscing at in. Lacus sed turpis tincidunt id aliquet. Etiam erat velit scelerisque in dictum non.
 
@@ -104,7 +108,7 @@ Facilisis gravida neque convallis a cras semper auctor neque
         <div class="text-center mt-5 mb-4">
   <div class="row">
     <div class="col">
-    <a href="#">
+    <a href="find_doctor.php">
                 <button class="btn px-4 fw-semibold fs-6" style="background-color : #A2D2FF; width: 300px;" type="submit" value="Logout">Find A Doctor</button>
             </a>
     </div>
