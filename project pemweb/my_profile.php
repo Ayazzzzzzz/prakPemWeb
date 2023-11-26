@@ -75,7 +75,7 @@
                         <tr>
                             <td style="width: 12rem; height: 2rem;">Alamat</td>
                             <td><?php echo $data['address']; ?></td>
-                            <td><a href="hapus_profile.php?pasienID=<?php echo $data['pasienID']; ?>"><button class="btn px-4 rounded-pill fw-semibold" style="background-color : #FF865E;  width: 200px; font-size: 17px;" type="submit" value="hapus_profile">Hapus Akun</button></a></td>
+                            <td><button class="btn px-4 rounded-pill fw-semibold" style="background-color : #FF865E;  width: 200px; font-size: 17px;" type="submit" data-bs-toggle="modal" data-bs-target="#exampleHapus" value="hapus_profile">Hapus Akun</button></td>
                         </tr>
                         <tr>
                             <td style="width: 12rem; height: 2rem;">Email</td>
@@ -84,13 +84,49 @@
                         <tr>
                             <td style="width: 12rem; height: 2rem;">Password</td>
                             <td><input class="border border-0 bg-transparent" type="password" value="<?php echo $data['password']; ?>" disabled></td>
-                            <td><a href="logout.php"><button class="btn px-4 rounded-pill fw-semibold" style="background-color : #FEE440;  width: 200px; font-size: 17px;" type="submit" value="Logout">Logout</button></a></td>
+                            <td><button class="btn px-4 rounded-pill fw-semibold" style="background-color : #FEE440;  width: 200px; font-size: 17px;" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Logout">Logout</button></td>
                         </tr>
                         <tr>
                             <td style="width: 12rem; height: 2rem;">Riwayat</td>
                             <td><?php echo $data['riwayat']; ?></td>
                         </tr>
                     </table>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title fs-5" id="exampleModalLabel">Logout</h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Apakah anda yakin ingin logout dari akun ini?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <a href="logout.php"><button type="submit" class="btn btn-primary">Yakin</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleHapus" tabindex="-1" aria-labelledby="exampleHapusLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title fs-5" id="exampleHapusLabel">Logout</h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Apakah anda yakin ingin menghapus akun ini?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <a href="hapus_profile.php?pasienID=<?php echo $data['pasienID']; ?>"><button type="submit" class="btn btn-primary">Yakin</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col"></div>
