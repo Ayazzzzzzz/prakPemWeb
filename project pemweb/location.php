@@ -18,16 +18,74 @@
         }
         .card {
             background-color: #FEF9EF;
-            height: 645px;
+            height: 620px;
+        }
+        .card-text {
+            font-size: 15px;
         }
     </style>
 </head>
 <body class="fw-light">
+<ul class="nav justify-content-end p-4 py-1" style="background-color : #FEE440; font-size: 18px;" >
+  <div class="col-5 justify-content-start" >
+  <li>
+    <!-- gimana biar dia ke pojok kiri -->
+     <h2 class="fw-semibold fst-italic"> <img src="logo_rs.png" alt="" width=44px>FamCare </h2>
+  </li>
+  </div>
+  <li class="nav-item">
+    <a class="nav-link fs-5 mx-3" style="color : #213555;" aria-current="page" href="home.php">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fs-5 mx-3" style="color : #213555;" aria-current="page" href="artikel.php">Article</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fs-5 mx-3" style="color : #213555;"  href="contact_hos.php">Contact Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fs-5 mx-3" style="color : #4F709C;"  href="location.php">Location</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link fs-5 mx-3" style="color : #213555;"  href="#"><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+     Account
+    </button></a>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header" style="background-color : #A2D2FF;">
+        <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Your Account</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <center>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <img src="profile1.jpg" class="rounded-circle mt-1 mb-4" width= 100px; alt="">
+            <!-- ini nanti kasih gmail dari dbnya ya   -->
+        </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">My Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item mt-4 pt-5">
+            <a href="logout.php">
+                <button class="btn px-4 rounded-pill fw-semibold fs-5" style="background-color : #A2D2FF;  width: 360px;" type="submit" value="Logout">Logout</button>
+            </a>
+          </li>
+      </div>
+      </center>
+    </div>    
+</li>
+</ul>
     <center>
-    <div class="container text-start mt-5 row">
-        <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="container text-start mt-3 row">
+        <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="RSKIA_Sadewa.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
@@ -56,7 +114,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="Klinik_UPN.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
@@ -85,7 +143,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="RS_Hermina.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
@@ -114,9 +172,9 @@
         </div>
     </div>
     <div class="container text-start my-5 row">
-        <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="RS_UGM.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
@@ -145,7 +203,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="RSKIA_Permata_Bunda.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
@@ -174,7 +232,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="row mx-3 my-3">
+                <div class="row mx-3 mt-3 mb-0">
                     <div class="col-sm-5">
                         <img src="RSKIA_Fajar.jpg" class="card-img-top" alt="" style="width: 155px; height: 172px;">
                     </div>
