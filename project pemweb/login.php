@@ -50,6 +50,8 @@
                 echo "Anda harus login untuk mengakses halaman tersebut.";
             }else if($_GET['pesan'] == "berhasil_regis") {
                 echo "Anda telah berhasil Sign Up. Silahkan login";
+            }else if($_GET['pesan'] == "hapus") {
+                echo "Anda telah menghapus akun tersebut";
             }
         }
   ?>
