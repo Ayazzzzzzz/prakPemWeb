@@ -68,7 +68,7 @@ trs tolong buat kotaknya fit in di satu display   -->
                 <br>
                 
                 <center>
-                <a href="my_profile.php"><button class="mt-5 mb-5 rounded-pill border border-0 py-2 ms-3 fw-medium" style="width: 39%; background-color: #FF865E ;" type="submit" name="cancel">Cancel</button></a>
+                <a href="my_profile.php"><button class="mt-5 mb-5 rounded-pill border border-0 py-2 ms-3 fw-medium" style="width: 39%; background-color: #FF865E ;" type="button" name="cancel">Cancel</button></a>
                 <button class="mt-5 mb-5 rounded-pill border border-0 py-2 ms-3 fw-medium" style="width: 39%; background-color: #A2D2FF ;" type="submit" name="edit_profile">Edit</button>
                 </center>
 
