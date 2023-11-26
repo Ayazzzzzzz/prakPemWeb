@@ -21,7 +21,7 @@
 
     body{
       font-family : 'Catamaran';
-      font-family : 'Poppins' ;	
+      font-family : 'Poppins';
       color : #213555;
     }
   </style>
@@ -31,7 +31,7 @@
   <center>
   <div class="row">
     <div class="col-7 align-middle mt-5">
-        <img src="rabbit_1.png" alt="" height= 500px>
+        <img src="HAPPY KIDS.png" alt="" height= 540px>
     </div>
     <div class="col-5" style="background-color: #FEF9EF; height: 39rem;">
         <h1 class="mt-5 fw-bold">Welcome Back!</h1>
