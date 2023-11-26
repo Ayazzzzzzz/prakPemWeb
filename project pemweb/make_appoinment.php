@@ -37,19 +37,20 @@
                 <label for="dokter" class="px-5 pb-3" style="margin-left: 13.5rem;">Pilih Dokter</label> <br>
                 <input class="fw-light ms-5 bg-transparent py-1" type="text" name="gejala" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF; margin-left : 6.5rem" required>
                 <!-- <input class="fw-light ms-3 bg-transparent py-1" type="text" name="dokter" style="width: 25%; border: none; border-bottom: 1px solid #A2D2FF;" required> -->
+                
                 <select name="dokter" id="dokter" class="py-1 ms-4 bg-transparent" size="3" style="width: 39%; background-color: #A2D2FF;">
-                    <option value="1">Sadewa</option>
-                    <option value="2">Pratama UPN</option>
-                    <option value="3">UGM</option>
-                    <option value="4">UGM</option>
-                    <option value="5">UGM</option>
-                    <option value="6">UGM</option>
-                    <option value="7">UGM</option>
-                    <option value="8">UGM</option>
-                    <option value="9">UGM</option>
-                    <option value="10">UGM</option>
-                    <option value="11">UGM</option>
-                    <option value="12">UGM</option>
+                    <option value="1">Dr. Anisa Dewi, Sp.A.</option>
+                    <option value="2">Dr. Aditya Pratama, Sp.A.</option>
+                    <option value="3">Dr. Siti Nurul Huda, Sp.A.</option>
+                    <option value="4">Dr. Maya Indriani, Sp.A.</option>
+                    <option value="5">Dr. Rina Fitriani, Sp.A.</option>
+                    <option value="6">Dr. Putri Handayani, Sp.A.</option>
+                    <option value="7">Dr. Amanda Surya, Sp.A.</option>
+                    <option value="8">Dr. Ratna Cahaya, Sp.A.</option>
+                    <option value="9">Dr. Nina Kusuma, Sp.A.</option>
+                    <option value="10">Dr. Dian Pertiwi, Sp.A.</option>
+                    <option value="11">Dr. Aditya Wijaya, Sp.A.</option>
+                    <option value="12">Dr. Maya Putri, Sp.A.</option>
                 </select>
                 <br>
 
