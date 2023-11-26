@@ -113,7 +113,7 @@ Facilisis gravida neque convallis a cras semper auctor neque
             </a>
     </div>
     <div class="col">
-    <a href="#">
+    <a href="location.php">
                 <button class="btn px-4 fw-semibold fs-6" style="background-color : #A2D2FF; width: 300px;" type="submit" value="Logout">Location</button>
             </a>
     </div>
