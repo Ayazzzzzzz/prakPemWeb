@@ -59,11 +59,11 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <img src="profile1.jpg" class="rounded-circle mt-1 mb-4" width= 100px; alt="">
+            <img src="profile1.avif" class="rounded-circle mt-1 mb-4" width= 100px; alt="">
             <!-- ini nanti kasih gmail dari dbnya ya   -->
         </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">My Profile</a>
+            <a class="nav-link active" aria-current="page" href="my_profile.php">My Profile</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">My Appointment</a>
@@ -72,9 +72,7 @@
             <a class="nav-link" href="#">History</a>
           </li>
           <li class="nav-item mt-4 pt-5">
-            <a href="logout.php">
-                <button class="btn px-4 rounded-pill fw-semibold fs-5" style="background-color : #A2D2FF;  width: 360px;" type="submit" value="Logout">Logout</button>
-            </a>
+                <button class="btn px-4 rounded-pill fw-semibold fs-5" style="background-color : #A2D2FF;  width: 360px;" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Logout">Logout</button>
           </li>
       </div>
       </center>
@@ -261,6 +259,24 @@
         </div>
     </div>
     </center>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title fs-5" id="exampleModalLabel">Logout</h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Apakah anda yakin ingin logout dari akun ini?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <a href="logout.php"><button type="submit" class="btn btn-primary">Yakin</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
