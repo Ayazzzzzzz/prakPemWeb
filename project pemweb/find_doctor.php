@@ -22,15 +22,16 @@
         }
         .card {
             background-color: #FEF9EF;
-            height: 540px;
+            height: 550px;
+            width: ;
         }
         .card-body-text {
-            height: 220px;
+            height: 230px;
         }
     </style>
 </head>
 <body>
-<ul class="nav justify-content-end p-4 py-1" style="background-color : #FEE440; font-size: 18px;" >
+<ul class="nav justify-content-end px-4 pt-1" style="background-color : #FEE440; font-size: 18px;" >
   <div class="col-5 justify-content-start" >
   <li>
     <!-- gimana biar dia ke pojok kiri -->
@@ -87,12 +88,13 @@
 </ul>
     <div class="row">
         <div class="col-9">
-            <div class="text-start m-4 row">
+            <div class="text-start m-2 mt-3 row">
                 <?php 
                     include 'connect_pemweb.php';
                     $query = mysqli_query($connect, "SELECT * FROM dokter");
                     while($data = mysqli_fetch_array($query)) {
-                ?>        
+                ?> 
+
                 <div class="col-sm-4">
                     <div class="card border border-2 shadow p-3 mb-5 bg-body-info">
                         <center>
@@ -126,7 +128,8 @@
             </div>
         </div>
         <div class="col-3 mt-5">
-            <select name="opsiLokasi" id="opsiLokasi" class="rounded-pill border border-none p-3 ms-4" style="background-color: #A2D2FF;">
+            <form action="select_option.php" method="POST">
+            <select name="opsiLokasi" id="opsiLokasi" class="border border-none p-3 ms-4" style="background-color: #A2D2FF;">
                 <option value="#">-Pilih Berdasarkan Lokasi-</option>
                 <option value="RSKIA Sadewa">Sadewa</option>
                 <option value="RSKIA Pratama UPN">Pratama UPN</option>
@@ -135,6 +138,10 @@
                 <option value="RSKIA Permata Bunda">Permata Bunda</option>
                 <option value="RSKIA Fajar">Fajar</option>
             </select>
+            <center>
+                <button type="submit" name="search" class="btn btn-primary my-3">Cari</button>
+            </center>
+            </form>
             <img src="doctor.png" alt="" style="width: 100%; margin-top: 6rem;">
         </div>
     </div>
