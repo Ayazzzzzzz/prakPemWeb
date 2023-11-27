@@ -101,9 +101,9 @@
         <center>
         <h3 class="fs-1 fw-bold mb-5">Rumah Sakit Anak Hebat</h3>
         <p style="text-align: justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Auctor urna nunc id cursus metus aliquam eleifend. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Nisl nunc mi ipsum faucibus. Facilisis magna etiam tempor orci eu. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. Quis vel eros donec ac. Eros in cursus turpis massa tincidunt dui ut. Et tortor at risus viverra adipiscing at in. Lacus sed turpis tincidunt id aliquet. Etiam erat velit scelerisque in dictum non.
-
-Facilisis gravida neque convallis a cras semper auctor neque
+        Kami berkomitmen memberi layanan kesehatan prima dengan menghadirkan layanan kesehatan terdepan yang didukung oleh teknologi medis dan sistem informasi rumah sakit digital terkini. Kami percaya, komitmen ini akan menjamin layanan yang lebih baik dan lebih cepat, baik untuk diagnosis, maupun tindakan korektif. 
+        Komitmen ini juga tercermin dari konsistensi kami mengimplementasikan standar akreditasi nasional di seluruh rumah sakit di bawah naungan Rumah Sakit Anak Hebat. 
+        Selain itu, kami juga berupaya berkontribusi untuk masyarakat melalui program tanggung jawab sosial perusahaan yang berfokus pada empat pilar, yaitu kesehatan, lingkungan, pendidikan, dan bantuan sosial.
         </p>
         </center>
         <div class="text-center mt-5 mb-4">
