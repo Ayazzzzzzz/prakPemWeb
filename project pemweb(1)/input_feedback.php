@@ -12,6 +12,6 @@
              or die(mysqli_error($connect));
 
     if($query) {
-        header("location:contact_hos.php?pesan=masuk");
+        header("location:home.php");
     }
 ?>

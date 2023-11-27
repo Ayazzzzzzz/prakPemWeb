@@ -53,10 +53,8 @@ trs tolong buat kotaknya fit in di satu display   -->
                 <input class="fw-light ms-5 bg-transparent py-1" type="date" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="birth_date" value="<?php echo $data['birth_date'] ?>" required>
                 <input class="fw-light ms-3 bg-transparent py-1" type="number" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="contact" value="<?php echo $data['contact'] ?>" required>
                 <br>
-                <label class="ms-5 mt-4" for="kunjungan">Tanggal Kunjungan</label>
-                <label for="riwayat" class="px-5" style="margin-left: 2.5rem;">Riwayat Penyakit</label> <br>
-                <input class="fw-light ms-5 bg-transparent py-1" type="date" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="kunjungan" value="<?php echo $data['kunjungan'] ?>" required>
-                <input class="fw-light ms-3 bg-transparent py-1" type="text" style="width: 39%; border: none; border-bottom: 1px solid #A2D2FF;" name="riwayat" value="<?php echo $data['riwayat'] ?>">
+                <label for="riwayat" class="ms-5 mt-4">Riwayat Penyakit</label> <br>
+                <input class="fw-light ms-5 bg-transparent py-1" type="text" style="width: 83%; border: none; border-bottom: 1px solid #A2D2FF;" name="riwayat" value="<?php echo $data['riwayat'] ?>">
                 <br>
                 <label class="ms-5 mt-4" for="address">Address</label> <br>
                 <textarea class="fw-light ms-5 bg-transparent py-1" style="border: none; border-bottom: 1px solid #A2D2FF" name="address" cols="55" rows="2" value="<?php echo $data['address'] ?>" required><?php echo $data['address'] ?></textarea>

@@ -26,14 +26,38 @@
         Feel Free to Contact Us, Dear Patient! Fill up the form and our Team will get back to you within 24 hours.
     <!-- Jalan Padjajaran (Lingkar Utara), Condong Catur, Sleman, Yogyakarta, Indonesia. 55283 -->
     </p>
-    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATdJREFUSEvVlGFugzAMhZ/JLjGJSfQkc0/S9iRtT1JusuwkQyrSTgGZXGhFUgNpWDWNnyh5X+xnP8KTP3qyPv4G0NR8IqAggx292mpJlXcVtDV/AGARdUCZGRyXQDzAUPz6audwzF5QpkJCgNPaIRDzZg8prQoBXwCK34REAwDYLLfrR6vwAP30bBWRKsvt6lFxOe8BXM1bB5wCoWTxO4D8aGv2fCCDVeoEqYCwTUsmSAW4by5cA1m22zRpVci5tsE+Az4pt+WYP2oWNWc+EGE/uFSRwfraqv4R4lW38RPLOBp22lYTsIND5Tr4RXxu4yfTNDQ8YkxtGJCzcT2xGyovHIpZgKj0nmzGYiRs1TC3ogAXI8/MLWFDXe/VvNLiJBrgvVJgABPhvYcJUM2qJECE2bcj/x/wA04jiBl2TphSAAAAAElFTkSuQmCC"/>     +021 8372863191</p>
-    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAd1JREFUSEvFVc1KG1EU/r47ogvXXRRuQBfuiqUPYOfmMQpdJFtBwSdQ36At7doIBfe+QG7wBUpfoFMcycKtCIpzTznTmZBJJukkVjK7O/fnO+c75/sO8cIfX/h9rAZAhm4rPKFDIgbg5mSZ6J4A3kQ45Wufr8e/qQwkdR0BzpagLhHBedTyJzMBNHLJ8GuJx8srCQVdtrwvf1QyyFJ3RqCzCAAF7QA4EscFXb3I+m4tQEidRr9VByBAD4LfhkgCEBeBJMb67QlavbG+PQtAah4fpS3DvVe4A7hzdVvQ2S/OjweVgzYGUApgwiMk+igMMUEJIgMDfEfEYV3NjPUj6is1CKmrZKC0KJ9ZGn8juF/pDsFXtvxBSJ1mUWnlxgAEupCHS+HGAMCbKn3y09jB2+zanZQFLvcbA4jg1ODhi3C9D3B3oj4/jPXvngUAVaj17ewm/kzh4TiAAJ8i64/qWrtxBgDyDgLMPRg+CPkeEiAwAxPCBchNIcpOGuEvAqCXptSZC+raubrHdW8ewFRHFGElamgqNF3/wwRnC20Zq5gUZtnatUL7D2YHFeZMs8u5Xd6udXp1aX1v7jzIQXTgZDjmX+ObN3DyJtA5YNbQazRwFrHqJmdXM5ObRNb0zB/SiuIZeiikkQAAAABJRU5ErkJggg=="/>     @KidsHealth_Fam124</p>
-    <p class="pb-1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP5JREFUSEvtlWEOgjAMhV/hGpDgTeZN8CTqSdST2JtIIomXUGq2jAUQHAz5Q9xPWPv1vZZCWPjQwvmxIoDclRLCCUA207aCBDtKmXUeZ1FVqisANTN5HV5ECW+6ANEPRHAkwj4EJMCZgFzHRgmb4psKDEC/CLDL2VKVyuUZBBglD5VVT+Q+NbrqOOFdHSMv3L4qAFCI4BKnfDBBw81vNdPe0300Z9Ci+oLuhYN01HSr7lPqBVjQhxrjqx3BbtXNwRgLMDFNNWP7MwnQVBMBLATn9dA4hwAmfRp/gNeuPot+uew4SnjbWhV2pvWSm7tR+9e1V3PghRX9MgMd8Ia9ARHQpxk/fuDJAAAAAElFTkSuQmCC"/>     someone@example.com </p>
+    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATdJREFUSEvVlGFugzAMhZ/JLjGJSfQkc0/S9iRtT1JusuwkQyrSTgGZXGhFUgNpWDWNnyh5X+xnP8KTP3qyPv4G0NR8IqAggx292mpJlXcVtDV/AGARdUCZGRyXQDzAUPz6audwzF5QpkJCgNPaIRDzZg8prQoBXwCK34REAwDYLLfrR6vwAP30bBWRKsvt6lFxOe8BXM1bB5wCoWTxO4D8aGv2fCCDVeoEqYCwTUsmSAW4by5cA1m22zRpVci5tsE+Az4pt+WYP2oWNWc+EGE/uFSRwfraqv4R4lW38RPLOBp22lYTsIND5Tr4RXxu4yfTNDQ8YkxtGJCzcT2xGyovHIpZgKj0nmzGYiRs1TC3ogAXI8/MLWFDXe/VvNLiJBrgvVJgABPhvYcJUM2qJECE2bcj/x/wA04jiBl2TphSAAAAAElFTkSuQmCC"/><a href="tel:+0218372863191" class="text-decoration-none text-black">+021 8372863191</a></p>
+    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAd1JREFUSEvFVc1KG1EU/r47ogvXXRRuQBfuiqUPYOfmMQpdJFtBwSdQ36At7doIBfe+QG7wBUpfoFMcycKtCIpzTznTmZBJJukkVjK7O/fnO+c75/sO8cIfX/h9rAZAhm4rPKFDIgbg5mSZ6J4A3kQ45Wufr8e/qQwkdR0BzpagLhHBedTyJzMBNHLJ8GuJx8srCQVdtrwvf1QyyFJ3RqCzCAAF7QA4EscFXb3I+m4tQEidRr9VByBAD4LfhkgCEBeBJMb67QlavbG+PQtAah4fpS3DvVe4A7hzdVvQ2S/OjweVgzYGUApgwiMk+igMMUEJIgMDfEfEYV3NjPUj6is1CKmrZKC0KJ9ZGn8juF/pDsFXtvxBSJ1mUWnlxgAEupCHS+HGAMCbKn3y09jB2+zanZQFLvcbA4jg1ODhi3C9D3B3oj4/jPXvngUAVaj17ewm/kzh4TiAAJ8i64/qWrtxBgDyDgLMPRg+CPkeEiAwAxPCBchNIcpOGuEvAqCXptSZC+raubrHdW8ewFRHFGElamgqNF3/wwRnC20Zq5gUZtnatUL7D2YHFeZMs8u5Xd6udXp1aX1v7jzIQXTgZDjmX+ObN3DyJtA5YNbQazRwFrHqJmdXM5ObRNb0zB/SiuIZeiikkQAAAABJRU5ErkJggg=="/><a href="instagram.com/KidsHealth_Fam124/" class="text-decoration-none text-black">@KidsHealth_Fam124</a></p>
+    <p class="pb-1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP5JREFUSEvtlWEOgjAMhV/hGpDgTeZN8CTqSdST2JtIIomXUGq2jAUQHAz5Q9xPWPv1vZZCWPjQwvmxIoDclRLCCUA207aCBDtKmXUeZ1FVqisANTN5HV5ECW+6ANEPRHAkwj4EJMCZgFzHRgmb4psKDEC/CLDL2VKVyuUZBBglD5VVT+Q+NbrqOOFdHSMv3L4qAFCI4BKnfDBBw81vNdPe0300Z9Ci+oLuhYN01HSr7lPqBVjQhxrjqx3BbtXNwRgLMDFNNWP7MwnQVBMBLATn9dA4hwAmfRp/gNeuPot+uew4SnjbWhV2pvWSm7tR+9e1V3PghRX9MgMd8Ia9ARHQpxk/fuDJAAAAAElFTkSuQmCC"/><a href="mailto:someone@example.com" class="text-decoration-none text-black">someone@example.com</a></p>
     <center>
     <img src="contact.png" width=280px alt="">
     </center>
 </div>
     <div class="col-8 align-middle  p-4 ps-5">
+    <nav class="navbar bg-transparent">
+    <a class="navbar-brand" href="#"></a>
+    <a class="nav-link fs-5 mx-3" style="color : #213555;"  href="#"><button class="navbar-toggler border border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAJJJREFUWEft1cENgCAMhWEYRXfQTXQe59FNdAcdRS96g/wxDUmbPK9NSf14QE7OvuxsnqSBaEckJCESoHqcDHXDdNPfWOrXsRUxqkIa6OWOkyFLPiy9EiK9qlA/zgs1W+rnvhbX17H/VH9fjO62zJIPS6+OPenFEdJrT6+9OyEKX6t6nFC3EqB1JSQhEqC6MkRCD4X3KCVINjI6AAAAAElFTkSuQmCC"/>
+    </button></a>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="home.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="artikel.php">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="location.php">Location</a>
+          </li>
+      </div>
+    </div>
+</nav> 
         <center>
         <h1 clas="fw-bold fs-1">
             Patient's Feedback 
@@ -63,14 +87,11 @@
                 <br>
                 <div class="d-flex flex-row-reverse me-5">
                     <div class="p-2"></div>
-                    <div class="p-2 me-5"><button class="mb-5 rounded-pill border border-0 py-2 mt-4 me-5 fw-medium" style="width: 100%; background-color: #FEE440 ;" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" name="Send">Send Message</button></div>
+                    <div class="p-2 me-5"><button class="mb-5 rounded-pill border border-0 py-2 mt-4 me-5 fw-medium" style="width: 100%; background-color: #FEE440 ;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" name="Send">Send Message</button></div>
                     <div class="p-2"></div>
                 </div>
-                <?php  
-		            if(isset($_GET['pesan']))
-		            {
-			            if($_GET['pesan'] == "masuk"){ ?>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -82,15 +103,11 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                        <a href="home.php"><button type="submit" class="btn btn-primary">Back to Home</button></a>
+                                        <button type="submit" class="btn btn-primary">Back to Home</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                <?php
-			            }
-                     }
-                ?>
             </form>
     </div>
 

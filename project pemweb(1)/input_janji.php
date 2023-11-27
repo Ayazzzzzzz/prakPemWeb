@@ -25,6 +25,6 @@
              or die(mysqli_error($connect));
 
     if($query) {
-        header("location:make_appoinment.php");
+        header("location:home.php");
     }
 ?>
