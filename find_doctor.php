@@ -19,6 +19,8 @@
         body {
             font-family: 'Catamaran';
             font-family: 'Poppins';
+            font-family: 'bak';
+
             background-color: #FEF9EF;
         }
         .col-9 {
